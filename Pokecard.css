@@ -1,0 +1,29 @@
+/* Pokecard.css */
+.pokecard {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    width: 150px;
+    background-color: #f5f5f5;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.pokedex {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+
+.pokedex-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.winner-message {
+    color: green;
+    font-weight: bold;
+}
